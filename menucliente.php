@@ -58,13 +58,13 @@ if(isset($_SESSION['correo'])){?>
                 <tr>
                 </tr>
                 <tr>
-                <th style="background: white" colspan="5"><h1>MENÚ</h1></th>
+                <th style="background: white" colspan="5"><h1>MENÃš</h1></th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td><h2 style="background: #FF0040">DESCRIPCIÓN</h2></td><br><br>
+                    <td><h2 style="background: #FF0040">DESCRIPCIÃ“N</h2></td><br><br>
                     <td><h2 style="background: #FF0040">IMAGEN</h2></td>
                     <td><h2 style="background: #FF0040">PRECIO</h2></td>
                     <td colspan="2"><h2 style="background: #FF0040">OPERACIONES</h2></td>
