@@ -58,7 +58,7 @@ if(isset($_SESSION['correo'])){?>
                 <tr>
                 </tr>
                 <tr>
-                <th style="background: white" colspan="5"><h1>MENÃš</h1></th>
+                <th style="background: white" colspan="5"><h1>MENU</h1></th>
                 </tr>
             </thead>
 
