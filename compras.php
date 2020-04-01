@@ -19,7 +19,7 @@ include "conexion.php";
 
 
 for($i=0; $i<count($arreglo);$i++){
-                                    $imagen= addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
+
 			$sql = "insert into compras (numeroventa, imagen,nombre,precio,cantidad,subtotal) values(
 				".$numeroventa.",
 				'".$arreglo[$i]['.$imagen.']."',
