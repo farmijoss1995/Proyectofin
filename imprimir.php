@@ -43,7 +43,7 @@
                       <?php
                  include 'conexion.php';
 
-              $query = "SELECT * FROM cliente where id=53 ";
+              $query = "SELECT * FROM cliente  ";
         $result = $conexion->query($query);
 
 
@@ -153,7 +153,7 @@ if ($result->num_rows > 0) {
 
 
 
-                      echo '<center><a href="guardarfactura.php" class="aceptar">Guardar Factura</a></center>;';
+                      echo '<center><a href="visualfac.php" class="aceptar">Guardar Factura</a></center>;';
 
 
 
