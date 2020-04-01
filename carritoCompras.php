@@ -103,7 +103,7 @@ else{
 
         <div class="producto">
         <center>
-           <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>
+
             <span><?php echo $datos[$i]['descripcion'];?></span><br>
             <span>Precio: <?php echo $datos[$i]['precio'];?></span><br>
             <span>Cantidad:
