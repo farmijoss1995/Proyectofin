@@ -18,7 +18,7 @@
 
         <center>
 
-            <form action="validafoto.php" method="POST" class="crear" enctype="multipart/form-data">
+            <form action="validarfoto.php" method="POST" class="crear" enctype="multipart/form-data">
 
 
                 <h1 style="background: blue">INGRESAR MENÚ</h1>
