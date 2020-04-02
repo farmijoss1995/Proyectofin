@@ -20,10 +20,10 @@ include "conexion.php";
 
 for($i=0; $i<count($arreglo);$i++){
 
-			$sql = "insert into compras (numeroventa, imagen,nombre,precio,cantidad,subtotal) values(
+			$sql = "insert into compras (numeroventa,nombre,imagen,precio,cantidad,subtotal) values(
 				".$numeroventa.",
+                '".$arreglo[$i]['descripcion']."',
 				'".$arreglo[$i]['.$imagen.']."',
-				'".$arreglo[$i]['nombre']."',
 				'".$arreglo[$i]['precio']."',
 				'".$arreglo[$i]['cantidad']."',
 				'".($arreglo[$i]['precio']*$arreglo[$i]['cantidad'])."'
@@ -35,7 +35,7 @@ for($i=0; $i<count($arreglo);$i++){
 }
 		}
 		unset($_SESSION['carrito']);
-        header("Location: ./admin.php");
+        header("Location: admin.php");
 
 ?>
 
