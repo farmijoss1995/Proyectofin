@@ -30,7 +30,7 @@
 
 	<center>
 
-	 	 	 <th style="background: #FF0040" colspan="10"><h1>FACTURA VISULA</h1></th>
+	 	 	 <th style="background: #FF0040" colspan="10"><h1>FACTURA VISUAL</h1></th>
 
 	<table class="tabla">
 
@@ -153,7 +153,7 @@ if ($result->num_rows > 0) {
 
 
 
-                      echo '<center><a href="visualfac.php" class="aceptar">Guardar Factura</a></center>;';
+                      echo '<center><a href="guardarfactura.php" class="aceptar">Guardar Factura</a></center>;';
 
 
 
