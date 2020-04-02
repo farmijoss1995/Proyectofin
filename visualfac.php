@@ -27,13 +27,13 @@
 	<table border="0px" width="100%">
 		<tr>
 
+
 			<td style="background: white">Nombre Cliente</td>
 			<td style="background: white">Apellido Cliente</td>
 			<td style="background: white">Correo</td>
 			<td style="background: white">Telefono</td>
             <td style="background: white">Direccion</td>
-           	<td style="background: white">Numero Venta</td>
-			<td style="background: white">Nombre</td>
+			<td style="background: white">Nombre Producto</td>
 			<td style="background: white">Precio</td>
 			<td style="background: white">Cantidad</td>
             <td style="background: white">%Subtotal</td>
@@ -54,18 +54,19 @@
 
 
             $table = '<tr>';
+
             $table .="<td>$row[nombres]</td>";
             $table .="<td>$row[apellidos]</td>";
             $table .="<td>$row[correo]</td>";
             $table .="<td>$row[telefono]</td>";
             $table .="<td>$row[direccion]</td>";
-            $table .="<td>$row[numeroventa]</td>";
             $table .="<td>$row[nombre]</td>";
             $table .="<td>$row[precio]</td>";
             $table .="<td>$row[cantidad]</td>";
             $table .="<td>$row[subtotal]</td>";
          $table .='</tr>';
         }
+
 
 
 
