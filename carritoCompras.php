@@ -19,7 +19,7 @@ if(isset($_SESSION['carrito'])){
 					}else{
 
 
-                        $nombre="";
+        $nombre="";
         $precio=0;
         $imagen="";
         $sql="select * from menu where id=".$_GET['id'];
@@ -59,6 +59,7 @@ else{
             $precio=$f['precio'];
             $imagen=$f['imagen'];
 
+
         }
             $arreglo[]=array('id'=>$_GET['id'],
                              'descripcion'=>$nombre,
@@ -72,6 +73,7 @@ else{
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -89,6 +91,8 @@ else{
 		</a>
 	</header>
 	<section>
+	<tbody>
+
 
 	<?php
 
@@ -105,6 +109,7 @@ else{
         <center>
 
             <span><?php echo $datos[$i]['descripcion'];?></span><br>
+             <img src="data:image/jpg;base64,<?php echo base64_encode($datos[$i]['imagen']);?>"/> <br>
             <span>Precio: <?php echo $datos[$i]['precio'];?></span><br>
             <span>Cantidad:
 			<input type="text" value="<?php echo $datos[$i]['cantidad'];?>"
@@ -112,13 +117,17 @@ else{
 							data-id="<?php echo $datos[$i]['id'];?>"
 							class="cantidad">
 						</span><br>
-            <span class="subtotal">Subtotal: <?php echo $datos[$i]['cantidad']*$datos[$i]['precio'];?></span><br>
+            <span class="subtotal">
+            Subtotal:
+            <?php echo $datos[$i]['cantidad']*$datos[$i]['precio'];?>
+            </span><br>
 
-
+ <td style="background: black"><a style="background:black" href="eliminarcarrito.php?id=<?php echo $datos [$i]['id'];?>">Eliminar</a></td>
+    </tr>
 
             </center>
         </div>
-
+</tbody>
         <?php
                 $total=($datos[$i]['cantidad']*$datos[$i]['precio'])+$total;
             }
@@ -155,13 +164,13 @@ if ($result->num_rows > 0) {
 
 
 
-					echo '<center><a href="compras.php" class="aceptar">Comprar</a></center>;';
+					echo '<center><a href="compras.php" class="aceptar">COMPRAR</a></center>;';
 
 
 			}
 
 	?>
-         <center><a href="menucliente.php">Añadir prenda</a></center>
+         <center><a href="menucliente.php">AGREGAR PEDIDO</a></center>
 
 </section>
 </body>
