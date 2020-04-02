@@ -23,7 +23,7 @@
 
 
 
-	<h1 style="background: blue">Últimas Compras</h1></center>
+	<h1 style="background: blue">HISTORIAL DE COMPRAS</h1></center>
 	<table border="0px" width="100%">
 		<tr>
 
@@ -59,7 +59,7 @@ if ($result->num_rows > 0) {
 
 					echo '<tr>
 
-						<td >'.$f['nombre'].'</td>
+						<td>'.$f['nombre'].'</td>
 						<td>'.$f['precio'].'</td>
 						<td>'.$f['cantidad'].'</td>
 						<td>'.$f['subtotal'].'</td>
