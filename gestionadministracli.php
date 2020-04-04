@@ -52,6 +52,8 @@
 
                     <td colspan="2"><h2 style="background: #FF0040">OPERACIONES</h2></td>
 
+                     <td colspan="2"><h2 style="background: #FF0040">FACTURA</h2></td>
+
                 </tr>
 
 
@@ -79,10 +81,15 @@
        <td style="background:">
        <?php echo $row['direccion']; ?></td>
 
+
+
     <td style="background: black"><a style="background:#F5F6CE" href="actualizaracliadm.php?id=<?php echo $row['id'];?>">Actualizar</a></td>
 
     <td style="background: black"><a style="background:#F5F6CE" href="eliminarcliente.php?id=<?php echo $row['id'];?>">Eliminar</a></td>
-    </tr>
+
+
+     <td style="background: black"><a style="background:#F5F6CE" href="gestionfactura.php?id=<?php echo $row['id'];?>">Verfac</a></td>
+
 
 
 
