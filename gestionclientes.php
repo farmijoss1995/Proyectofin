@@ -94,6 +94,9 @@
     <td style="background: black"><a style="background:#F5F6CE" href="eliminarcliente.php?id=<?php echo $row['id'];?>">Eliminar</a></td>
     </tr>
 
+    <td style="background: black"><a style="background:#F5F6CE" href="gestionfactura.php?id=<?php echo $row['id'];?>">VerFactura</a></td>
+    </tr>
+
 
 
 
