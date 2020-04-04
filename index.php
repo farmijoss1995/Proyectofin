@@ -34,109 +34,6 @@
 </div>
 <!-- header ends -->
 
-<div id="main">
-<!--div id="maintop"><img src="images/1.png" alt="" /></div> -->
-<content begins >
-<div id="content">
-	<div id="right">
-    	<div id="archives">
-
-
-               <img src="images/" alt="" /></div>
-                <div class="tit_b">
-                    <ul>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </ul>
-
-                </div>
-				<h2>Calendario</h2>
-                <div class="tit_b">
-                      <div id="calendar">
-                        <table id="calendar2" summary="Calendar">
-                          <caption>
-                            Agosto 2018
-                          </caption>
-                          <thead>
-                            <tr>
-                              <th abbr="Monday" scope="col" title="Monday">L</th>
-                              <th abbr="Tuesday" scope="col" title="Tuesday">M</th>
-                              <th abbr="Wednesday" scope="col" title="Wednesday">M</th>
-                              <th abbr="Thursday" scope="col" title="Thursday">J</th>
-                              <th abbr="Friday" scope="col" title="Friday">V</th>
-                              <th abbr="Saturday" scope="col" title="Saturday">S</th>
-                              <th abbr="Sunday" scope="col" title="Sunday">D</th>
-                            </tr>
-                          </thead>
-                          <tfoot>
-                            <tr>
-                              <td abbr="Des" colspan="3" id="prev"><a href="#">&laquo; Jul</a></td>
-                              <td class="pad">&nbsp;</td>
-                              <td abbr="Feb" colspan="3" id="next" class="pad"><a href="#">Sep &raquo;</a></td>
-                            </tr>
-                          </tfoot>
-                          <tbody>
-                            <tr>
-                              <td colspan="2" class="pad">&nbsp;</td>
-                              <td>1</td>
-                              <td>2</td>
-                              <td>3</td>
-                              <td>4</td>
-                              <td>5</td>
-                            </tr>
-                            <tr>
-                              <td id="now">6</td>
-                              <td>7</td>
-                              <td>8</td>
-                              <td>9</td>
-                              <td>10</td>
-                              <td>11</td>
-                              <td>12</td>
-                            </tr>
-                            <tr>
-                              <td>13</td>
-                              <td>14</td>
-                              <td>15</td>
-                              <td>16</td>
-                              <td>17</td>
-                              <td>18</td>
-                              <td>19</td>
-                            </tr>
-                            <tr>
-                              <td>20</td>
-                              <td>21</td>
-                              <td>22</td>
-                              <td>23</td>
-                              <td>24</td>
-                              <td>25</td>
-                              <td>26</td>
-                            </tr>
-                            <tr>
-                              <td>27</td>
-                              <td>28</td>
-                              <td>29</td>
-                              <td>30</td>
-                              <td>31</td>
-                              <td class="pad" colspan="2">&nbsp;</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-          		</div>
-        </div>
-     </div>
         <center>
          <div id="left">
         <div class="text">
@@ -153,6 +50,26 @@
             <input style="background: black" type="submit" name="reguistro" id="reguistrar" value="Regístrate aquí" onclick="location='clientes.php'">
 
 
+    <div class="content-all">
+        <div class="content-carrousel">
+            <figure><img src="img/21.png"></figure>
+            <figure><img src="img/19.png"></figure>
+            <figure><img src="img/3.png"></figure>
+            <figure><img src="img/21.png"></figure>
+            <figure><img src="img/27.png"></figure>
+            <figure><img src="img/6.png"></figure>
+            <figure><img src="img/16.png"></figure>
+            <figure><img src="img/8.png"></figure>
+            <figure><img src="img/9.png"></figure>
+            <figure><img src="img/10.png"></figure>
+             <figure><img src="img/6.png"></figure>
+            <figure><img src="img/16.png"></figure>
+            <figure><img src="img/8.png"></figure>
+            <figure><img src="img/9.png"></figure>
+            <figure><img src="img/10.png"></figure>
+        </div>
+    </div>
+
      </div>
 	 </div>
             </center>
@@ -163,12 +80,13 @@
 
 	<div style="clear: both"></div>
 
-</div>
+
 
 <!-- content ends -->
 <!--div id="mainbot"><img src="images/1.png" alt="" /></div>
 </div>-->
-
+<br>
+    <br><br><br><br> <br><br><br><br><br><br><br><br>
     <footer style="background:black" >
         <br>
         <center>
