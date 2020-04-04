@@ -17,7 +17,7 @@ apellidos='$apellidos', correo='$correo', telefono='$telefono', direccion='$dire
 $resultado= $conexion->query($query);
 
 if($resultado){
-  header("Location: gestionclientes.php");
+  header("Location: gestionadministracli.php");
 }else{
     echo "insercion no exitosa";
 }
