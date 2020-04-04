@@ -23,11 +23,11 @@ a:hover{
 body{
 	font: 12px Arial, Helvetica, sans-serif;
 	color: black;
-	background:url(images/3.png);
+	background:url(images/1.png);
 }
 
 #bg{
-	background:url(images/) center top no-repeat;
+	background:url(images/1.png) center top no-repeat;
 }
 
 #maintop{
@@ -47,7 +47,7 @@ body{
 }
 
 #header{
-	width: 800px;
+	width: 1100px;
 	height: 173px;
 	margin: 0px auto;
 }
@@ -57,7 +57,7 @@ body{
 	text-align: right;
 	padding-top: 10px;
 	height: 76px;
-    background:url(images/1.png);
+    background:url(images/3.png);
 }
 
 #logo img{
@@ -79,7 +79,7 @@ body{
 }
 
 #buttons{
-	width: 800px;
+	width: 1100px;
 	height: 55px;
     background: #F7BE81;
     background:black;
@@ -132,13 +132,14 @@ body{
 
 .text{
 	padding: 25px;
-	background: url(images/1.png) no-repeat top left;
+
+	background: url(images/5.png) no-repeat top left;
 }
 
 #left H1{
 
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 
 	color: black;
 	padding-bottom: 1px;
@@ -298,3 +299,5 @@ p{
     color: white;
     text-align: center;
 }
+
+
