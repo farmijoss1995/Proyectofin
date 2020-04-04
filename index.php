@@ -20,7 +20,12 @@
 		<ul>
             <br>
 			<li class="first"><a href="#"  title="">Inicio</a></li>
-			<li><a href="nosotros.php" title="">Nosotros</a></li>
+			<li><a href="hombres.php" title="">Hombres</a></li>
+
+			<li><a href="mujeres.php" title="">Mujeres</a></li>
+
+			<li><a href="nosotros.php"
+			 title="">Nosotros</a></li>
 			<li><a href="telefono.php" title="">Telefonos</a></li>
 			<li><a href="locales.php" title="">Locales</a></li>
 			<li><a href="iniciarprincipal.php" title="">Iniciar Sesión</a></li>
@@ -146,6 +151,8 @@
             <br>
             <br>
             <input style="background: black" type="submit" name="reguistro" id="reguistrar" value="Regístrate aquí" onclick="location='clientes.php'">
+
+
      </div>
 	 </div>
             </center>
