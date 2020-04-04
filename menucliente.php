@@ -84,6 +84,7 @@ if(isset($_SESSION['correo'])){?>
     <td style="background: black"><?php echo $row['descripcion']; ?></td>
 
     <td><img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"/> </td>
+
     <td style="background: black"><?php echo $row['precio']; ?></td>
     <td style="background: black"><a style="background:#F5F6CE" href="./carritoCompras.php?id=<?php echo $row['id'];?>">Comprar</a></td>
     </tr>
