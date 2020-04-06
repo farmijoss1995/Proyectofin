@@ -51,7 +51,7 @@ if(isset($_SESSION['correo'])){?>
          <div id="left">
         <div class="text">
 
-                <a style="background:#F5F6CE" href="cerrar.php">Cerrar Sesion</a>
+                <a style="background:black" href="cerrar.php">Cerrar Sesion</a>
                 <center>
         <table class="tabla">
             <thead>
@@ -86,7 +86,7 @@ if(isset($_SESSION['correo'])){?>
     <td><img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"/> </td>
 
     <td style="background: black"><?php echo $row['precio']; ?></td>
-    <td style="background: black"><a style="background:#F5F6CE" href="./carritoCompras.php?id=<?php echo $row['id'];?>">Comprar</a></td>
+    <td style="background: black"><a style="background:black" href="./carritoCompras.php?id=<?php echo $row['id'];?>">Comprar</a></td>
     </tr>
 
                 <?php
