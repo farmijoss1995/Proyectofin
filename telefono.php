@@ -23,6 +23,7 @@
 			<li><a href="nosotros.php" title="">Nosotros</a></li>
 			<li><a href="telefono.php" title="">Telefonos</a></li>
 			<li><a href="locales.php" title="">Locales</a></li>
+          <li><a href="misionvision.php" title="">Mision y Vision</a></li>
             <li><a href="iniciarprincipal.php" title="">Iniciar Sesión</a></li>
 		</ul>
 	</div>
