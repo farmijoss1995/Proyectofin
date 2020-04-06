@@ -9,6 +9,8 @@
 
 </head>
 <body>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0"></script>
    <div id="header">
 	<div id="logo">
         <img src="images/2.png">
@@ -56,12 +58,15 @@
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">ZAPATOS ACTUR AZUL 35$</marquee></h3>
 
+
+
          <div class="imagen">
             <a href="#img20">&#60;</a>
             <a href="#img2"><img src="img/1.png" ></a>
             <a href="#img2">></a>
          </div>
           <a class="cerrar" href="">X</a>
+           <h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
 
 
 
@@ -76,7 +81,7 @@
             <a href="#img3">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
 
     <div class="modal" id="img3">
      <h3><marquee bgcolor="black" behavior="alternate">CHOMPA GRIS 25$</marquee></h3>
@@ -89,6 +94,8 @@
             <a href="#img4">></a>
          </div>
           <a class="cerrar" href="">X</a>
+
+          <h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
 
      <div class="modal" id="img4">
 
@@ -141,7 +148,7 @@
             <a href="#img8">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
      <div class="modal" id="img8">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
@@ -165,7 +172,7 @@
             <a href="#img10">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
          <div class="modal" id="img10">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
@@ -177,7 +184,7 @@
             <a href="#img11">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
          <div class="modal" id="img11">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
@@ -189,7 +196,7 @@
             <a href="#img12">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
          <div class="modal" id="img12">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
@@ -201,7 +208,7 @@
             <a href="#img13">></a>
          </div>
           <a class="cerrar" href="">X</a>
-
+<h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
          <div class="modal" id="img13">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
@@ -213,6 +220,7 @@
             <a href="#img14">></a>
          </div>
           <a class="cerrar" href="">X</a>
+          <h3><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div></h3>
          <div class="modal" id="img14">
      <h3><marquee bgcolor="black" behavior="alternate">SUETER AZUL OBSCURO 25$</marquee></h3>
        <h3><marquee bgcolor="black" behavior="alternate">PANTALON DE TELA AZUL CLARO 45$</marquee></h3>
