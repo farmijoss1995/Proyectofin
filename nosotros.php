@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0"></script>
+
 <div id="bg">
 
 <!-- header begins -->
@@ -62,6 +65,8 @@ Actualmente, MANGO cuenta con más de 2.200 puntos de venta en 109 países a lo 
                     <br>
 
 MANGO basa su logística en un sistema propio que ha ido desarrollando progresivamente desde la apertura de nuestra primera tienda en el año 1984 hasta la actualidad, en que MANGO se ha constituido como la segunda empresa exportadora del sector textil español.
+
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="10"></div>
 </div>
 
 
