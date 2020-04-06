@@ -15,7 +15,7 @@
 <div id="header">
 	<div id="logo">
         <img src="images/2.png">
-        <h1><a href="#">MANGO BOUTIQUE</a></h1></div>
+        <h1><a href="#">MANGO</a></h1></div>
 	<div id="buttons">
 		<ul>
             <br>
